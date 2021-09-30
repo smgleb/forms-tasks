@@ -48,7 +48,7 @@ document.querySelector('#sum-form').addEventListener('submit', function (e) {
 	for (let i = 0; i < formInp.length; i++) {
 		res += Number(formInp[i].value)
 	}
-	let p = document.querySelector('.res');
+	let p = document.querySelector('.res111');
 	p.innerHTML = `Результат: ${res}`
 })
 
